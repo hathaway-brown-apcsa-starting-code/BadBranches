@@ -33,6 +33,7 @@ public class BadBranch
     int grade = kbd.nextInt();
     while (grade >= 0) {
       System.out.println ("A grade of " + grade + " is a(n) " + getLetterGrade(grade));
+      System.out.println("\nEnter a numeric grade (negative to quit): ");
       grade = kbd.nextInt();
     }
     kbd.close();
